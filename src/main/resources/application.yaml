@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: mcp-server
+  ai:
+    mcp:
+      server:
+        name: mcp-server
+        version: 1.0.0
+        type: sync
+        protocol: streamable
+        stdio: false
+        enabled: true
+
+server:
+  port: 8081
+  connection-timeout: 90s
